@@ -6,6 +6,5 @@
   <context:annotation-config></context:annotation-config>
   <bean class="ApplicationListener.LoggerApplicationListener"/>
   <bean class="BeanPostProcessor.LoggerHandlerBeanPostProcessor"/>
-  <bean class="logger.LoggerImpl"/>
-  <bean class="Test"/>
+  <bean class="t" lazy-init="true"/>
 </beans>
